@@ -1,0 +1,74 @@
+# Dependencies
+node_modules
+**/node_modules
+.pnpm-store
+.pnp
+.pnp.js
+
+# Build outputs
+dist
+**/dist
+build
+**/build
+*.tsbuildinfo
+
+# Coverage
+coverage
+**/coverage
+.nyc_output
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs & Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Prisma
+**/prisma/*.db
+**/prisma/*.db-journal
+**/prisma/dev.db
+**/prisma/migrations/**/migration_lock.toml.bak
+
+# Testing
+.jest
+vitest-cache
+
+# Temporary
+.tmp
+.temp
+.cache
+*.local
+
+# Optional: ignore local tooling caches
+.turbo
+.swc
+.nest
+.atl

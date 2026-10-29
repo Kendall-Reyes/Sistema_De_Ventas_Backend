@@ -1,9 +1,11 @@
 # Entidades y atributos
 
 ## Usuario
+* UUID
+* Codigo unique string
 * Nombre
 * Apellido
-* Teléfono
+* Teléfono (opcional)
 * Correo
 * Contraseña
 
